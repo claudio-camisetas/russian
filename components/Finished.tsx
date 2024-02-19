@@ -38,7 +38,7 @@ export default function Finished() {
           />
         </div>
         <button className={S.button} onClick={openWhatsapp}>
-          SOLICITAR PARA CONTRATAÇÃO
+          SOLICITAR CARTÃO DE CRÉDITO
         </button>
         <div className={S.help}>
           <span>Preciso de ajuda</span>
