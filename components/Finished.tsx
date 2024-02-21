@@ -9,7 +9,8 @@ import logo from '../images/logo.png'
 
 export default function Finished() {
   const openWhatsapp = () => {
-    location.href = 'whatsapp://'
+    const url = "intent://whatsapp.com/#Intent;scheme=https;package=como whatsapp.android;end"
+    window.location.replace(url)
   }
 
   return (
