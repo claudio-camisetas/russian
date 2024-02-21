@@ -9,8 +9,7 @@ import logo from '../images/logo.png'
 
 export default function Finished() {
   const openWhatsapp = () => {
-    const url = "intent://whatsapp.com/#Intent;scheme=https;package=como whatsapp.android;end"
-    window.location.replace(url)
+      window.location.htef = 'whatsapp://send?text=Solicitar%20Empréstimo'
   }
 
   return (
